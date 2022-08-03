@@ -27,7 +27,7 @@ img {
   text-align: center;
 }
 
-.first {
+.info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,27 +35,6 @@ img {
   width: 200px;
 }
 
-.second {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-}
-.third {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-}
-.fourth {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-}
 /* do not edit this footer */
 .footer {
   position: fixed;

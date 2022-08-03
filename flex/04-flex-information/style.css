@@ -5,13 +5,57 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  margin-top: 32px;
+  gap: 52px;
+}
+
+.text {
+  text-align: center;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.fourth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
